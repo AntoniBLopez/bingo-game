@@ -206,7 +206,7 @@ function getCardboard() {
     resetGame()
 
     addRandomNumbersToTheCardboard()
-    
+
     randomCardboard = Math.round(Math.random())
     console.log(randomCardboard)
 
@@ -214,7 +214,7 @@ function getCardboard() {
 }
 
 function checkLine() {
-    
+
     if (randomCardboard === 0) {
 
         if (numbersOnCardboards[1][0].style.color === "white" && numbersOnCardboards[4][0].style.color === "white" &&
@@ -297,14 +297,14 @@ function getResult() {
         generateRouletteRandomNumbers()
 
     } while (randomNumberEqualPreviousNumber === true)
-    
+
     console.log(`Número Final ${rouletteRandomNumber}`)
 
     if (bingo) {}
     else { printResult[0].innerText = `The ${rouletteRandomNumber}` }
-        
+
     for (i = 0; i < numbersOnCardboards.length; i++) {
-    
+
         if (Number(numbersOnCardboards[i][0].innerText) === rouletteRandomNumber) {
             console.log("Ha coincidido")
             numbersOnCardboards[i][0].style.background = "#E91E63"

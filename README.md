@@ -1,7 +1,11 @@
-# bingo-game
-This is the first project I've made of a game with HTML, CSS &amp; JavaScript
+# Bingo Game ✌
+---
+### This is the first project I've made of a game with:
+##### - HTML, CSS &amp; JavaScript
 
+---
 
-El proyecto lo hize anteriormente en un ejercicio del curso de Fonaments de la Programació, puedes ver el repositiorio con sus commits aquí
+I did the project previously in an exercise of the programming foundations course.
+- You can see the original repository with its commits [here](https://github.com/ToniBLopez/CursFonamentsDeLaProgramacio/tree/master/ejerciciosCurso/ejercicio_18-02-2022_bingo "Original Repo")
 
-https://github.com/ToniBLopez/CursFonamentsDeLaProgramacio/tree/master/ejerciciosCurso/ejercicio_18-02-2022_bingo
+#### Thanks for watching!

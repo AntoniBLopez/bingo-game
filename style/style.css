@@ -65,7 +65,9 @@ body.darkMode {
 
 .containerMain {
     /* background-color: #a5506c; */
-    display: flex;
+    display: grid; /* con grid y la línea de debajo --> */
+    place-items: center;  /* centramos el contenido tanto vertical como horizontalmente */
+    /* display: flex; */
     flex-wrap: wrap;
     width: 100%;
     height: 30rem;
@@ -80,8 +82,8 @@ body.darkMode {
     text-align: center;
     background-color: antiquewhite;
     width: 80%;
-    height: 70%;
-    /* margin-left: 30%; */
+    height: 100%;
+    max-width: 70rem;
     border-radius: 2rem;
     padding: 1rem;
     padding-top: 1.8rem;
@@ -121,7 +123,7 @@ body.darkMode {
     position: absolute;
     color: #E91E63;
     background-color: #FAEBD7;
-    width: 17%;
+    width: 20%;
     height: 5%;
     padding: 0.5rem;
     border: 0.3rem inset #F8A8A8;
@@ -131,15 +133,18 @@ body.darkMode {
 }
 .containerMain_aside .h2One {
     display: none;
+    right: 8rem;
     top: 37.25rem;
 }
 .containerMain_aside .h2Two {
     display: none;
-    top: 42.75rem;
+    right: 8rem;
+    top: 41.65rem;
 }
 .containerMain_aside .h2Three {
     display: none;
-    top: 48.25rem;
+    right: 8rem;
+    top: 46rem;
 }
 
 
@@ -148,28 +153,25 @@ body.darkMode {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 25%;
+    height: 100%;
     padding: 0.75rem;
-    margin-top: 1rem;
 }
 .containerMain_result-h1 {
     min-width: 50%;
-    height: 100%;
-    padding: 1rem;
+    height: 70%;
+    padding: 0.5rem;
+    padding-top: 0.7rem;
     padding-left: 2rem;
     color: #ff407f;
     border: 0.4rem outset #F8A8A8;
     border-radius: 5rem;
     background-color: #FAEBD7;
+    margin-top: 0.5rem;
 }
 .containerMain_result svg {
     margin-right: 0.5rem;
 }
 .containerMain_result svg:hover{
-    position: relative;
-    width: 5.5rem;
-    height: 5.5rem;
-    bottom: 0.3rem;
-    right: 0.3rem;
-    margin-right: 0rem;
+    box-shadow: 0px 0px 15px #E91E63;
+    border-radius: 50%;
 }
